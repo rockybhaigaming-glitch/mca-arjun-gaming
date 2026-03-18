@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 import AdminPanel from './pages/AdminPanel';
 import { Toaster, toast } from 'sonner';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "https://mca-arjun-gaming.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 function Navbar({ user, setUser }) {
