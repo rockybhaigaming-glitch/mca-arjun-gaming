@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Menu, X, Trophy, User, Home as HomeIcon, Mail, LogOut, Shield } from 'lucide-react';
 import './App.css';
