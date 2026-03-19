@@ -331,5 +331,5 @@ async def shutdown_db_client():
     client.close()
 
 @app.get("/")
-def root():
+async def root():
     return {"message": "MCA ARJUN GAMING SERVER RUNNING 🚀"}
