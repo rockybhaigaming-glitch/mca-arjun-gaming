@@ -4,7 +4,7 @@ import { toast } from 'sonner';
 import { Shield, Trash2, Edit, AlertTriangle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "https://mca-arjun-gaming.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 function AdminPanel({ user }) {
